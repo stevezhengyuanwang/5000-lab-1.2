@@ -1,0 +1,87 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+## Table of Contents
+
+There is a table of contents on the right side of the website.
+
+# Sample Table
+
+| Name   | Age  | Gender |
+|---------|----------|-------|
+| Jerry | 12   | M    |
+| Tom| 23  | M    |
+| Mary   | 10  | F    |
+| Jenny   | 11  | F    |
+
+# Inline Math Equation
+
+The circumference of a circle is $C = \pi d$.
+
+# Non-Inline Math Equation
+
+$$
+O = \frac{sqrt{k + 4yk}}{i+124j+2d}
+$$
+
+# H1
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat nunc in nulla facilisis, sit amet condimentum orci fermentum.
+
+# H2
+
+::: {.columns}
+::: {.column width="40%"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor elit at ipsum euismod, vel suscipit est suscipit. Donec vel risus sit amet magna convallis sagittis. 
+:::
+::: {.column width="40%"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor elit at ipsum euismod, vel suscipit est suscipit. Donec vel risus sit amet magna convallis sagittis. 
+:::
+:::
+
+# H3
+
+Bullet List
+
+- Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
+  - Lorem ipsum dolor sit amet
+- Lorem ipsum dolor sit amet
+
+# Quote Example
+
+Darth Vader once said:
+
+> "No, I am your father."
+
+# Images
+
+![Canvas screenshot](images/1.png)
+
+![Canvas artwork](images/2.png)
+
+# Embedded Video
+
+![Linux Montage](images/3.webm)
+
+# Mermaid Diagram
+
+```{mermaid}
+graph TD;
+    Factory-->Institutions;
+    Factory-->Individuals;
+    Institutions-->Recycling;
+    Individuals-->Recycling;
+```
+
+# Citation
+
+Learning to master Python can be vital for the 21st century [@lutz2001programming]
+
+# Footnote
+
+I am Steve[^1].
+
+[^1]: Also known as Zhengyuan Wang
